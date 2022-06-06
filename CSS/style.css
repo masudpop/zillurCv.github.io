@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Gentium Plus', serif;
+}
+
+.contener{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-pic{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.herder-contact{
+    float: right;
+    padding: 30px;
+}
+.herder-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.herder-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-bottom: 0 auto;
+    margin: 20px;
+}
+/*-------------------------
+Presonal Section Start 
+---------------------------*/
+#personl-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+width: 30%;
+float: left;
+margin: 0 auto;
+margin-left: 20px;
+}
+.right-div{
+width: 60%;
+float: left;
+margin: 0 auto;
+margin-left: 20px;
+}
+.comman-horizantal{
+    border: solid black 1px;
+    border-bottom: 0 auto;
+    margin: 20px;
+}
+table tr th {
+    border: 3px solid #eee;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+table tr td {
+    border: 3px solid #eee;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.re-tem-left{
+        float: left;
+        width: 40%;
+       
+}
+.re-tem-right{
+    float: right;
+    width: 40%;
+    margin-top: 0 auto;
+   
+}   
+.buttom-continer{
+    background-color: black;
+    text-align: center;
+   
+    padding: 10px;
+}   
+.buttom-continer a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttom-continer p{
+    margin-top: 20px;
+   
+    color: white;
+}
